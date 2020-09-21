@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <style>
+        .site-footer {
+            background-color: #26272b;
+            padding: 45px 0 20px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #737373;
+        }
+        
+        .site-footer hr {
+            border-top-color: #bbb;
+            opacity: 0.5
+        }
+        
+        .site-footer hr.small {
+            margin: 20px 0
+        }
+        
+        .site-footer h6 {
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 5px;
+            letter-spacing: 2px
+        }
+        
+        .site-footer a {
+            color: #737373;
+        }
+        
+        .site-footer a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+        
+        .footer-links {
+            padding-left: 0;
+            list-style: none
+        }
+        
+        .footer-links li {
+            display: block
+        }
+        
+        .footer-links a {
+            color: #737373
+        }
+        
+        .footer-links a:active,
+        .footer-links a:focus,
+        .footer-links a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+        
+        .footer-links.inline li {
+            display: inline-block
+        }
+        
+        .site-footer .social-icons {
+            text-align: right
+        }
+        
+        .site-footer .social-icons a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: 6px;
+            margin-right: 0;
+            border-radius: 100%;
+            background-color: #33353d
+        }
+        
+        .copyright-text {
+            margin: 0
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-size: 10px;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        section {
+            padding: 10rem 0;
+            background-color: #fff;
+        }
+        
+        .heading {
+            text-transform: uppercase;
+            font-size: 3.5rem;
+            letter-spacing: 3px;
+            margin-right: -3px;
+            margin-bottom: 5rem;
+            text-align: center;
+            color: #333;
+            position: relative;
+        }
+        
+        .heading::after {
+            content: "";
+            width: 10rem;
+            height: .8rem;
+            background-color: #45e19f;
+            position: absolute;
+            bottom: -2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2rem;
+        }
+        
+        .card-wrapper {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        
+        .card {
+            width: 32rem;
+            background-color: #ebeef8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0;
+            box-shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.2);
+        }
+        
+        .card .card-img {
+            width: 100%;
+            height: 26rem;
+            object-fit: cover;
+        }
+        
+        .profile-img {
+            width: 15rem;
+            height: 15rem;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: -11rem;
+            z-index: 999;
+            border: 1rem solid #ebee;
+        }
+        
+        .card h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin: 1.5rem 0;
+        }
+        
+        .job-title {
+            color: #777;
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+        
+        .card .btn {
+            padding: 1rem 2.5rem;
+            background-color: #445ae3;
+            border-radius: 2rem;
+            margin: 1rem 0;
+            text-transform: uppercase;
+            color: #eee;
+            font-size: 1.4rem;
+            transition: all .5s;
+        }
+        
+        .card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.2);
+        }
+        
+        .card .btn:active {
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        
+        .social-media {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem;
+            margin-top: 1.5rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        .social-media i {
+            font-size: 3rem;
+        }
+        
+        .fa-linkedin-square {
+            color: #3b5999;
+        }
+        
+        .fa-facebook-square {
+            color: #3b5999;
+        }
+        
+        .fa-instagram {
+            color: #e6683c;
+        }
+        
+        .fa-facebook-square:hover,
+        .fa-instagram:hover,
+        .fa-linkedin-square {
+            color: #45e19f;
+        }
+        
+        @media screen and (min-width: 700px) {
+            .card-wrapper {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .card {
+                margin: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1 class="heading">Meet The Team</h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/pp.jpg" alt="profile image" class="profile-img">
+                    <h1>Poornchandra Kashi</h1>
+                    <p class="Job-Title">Community Lead</p>
+                    <p class="Job-Title">Backend Developer</p>
+                    <a href="Tel: 8904700354" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/jeyshri.jpeg" alt="profile image" class="profile-img">
+                    <h1>Jeysri L S</h1>
+                    <p class="Job-Title">Management Lead</p>
+                    <p class="Job-Title">Data Science</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="http://www.linkedin.com/in/jeysri-l-s"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/manoj.jpeg" alt="profile image" class="profile-img">
+                    <h1>Manoj S</h1>
+                    <p class="Job-Title">Technical Lead</p>
+                    <p class="Job-Title">Machine Learning</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/manoj-s-8b6188181"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/paranom_man/?hl=en"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/harsha.jpeg" alt="profile image" class="profile-img">
+                    <h1>Harshavardhan M</h1>
+                    <p class="Job-Title">Media Lead</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/inharshav/"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/in.harshav/"><i class="fa fa-facebook-official"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/in.harshav/"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/puneeth.jpeg" alt="profile image" class="profile-img">
+                    <h1>Puneeth Nandan Jha</h1>
+                    <p class="Job-Title">Master Designer</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://instagram.com/puneetpnj?igshid=5pnn5emmu2zl"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/likhi.jpeg" alt="profile image" class="profile-img">
+                    <h1>Likhith R Gowda</h1>
+                    <p class="Job-Title">Web Devolopment Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/likhith-gowda-7aa9251b0"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/likhith_r_gowdaa/"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/asif.jpeg" alt="profile image" class="profile-img">
+                    <h1>M D Asif</h1>
+                    <p class="Job-Title">Web Development Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/aasif-ali-323626193/"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/asif.mansury.121/"><i class="fa fa-facebook-official"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/aasif_ali_23/"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/chetana.jpeg" alt="profile image" class="profile-img">
+                    <h1>Chetana</h1>
+                    <p class="Job-Title">Women Tech Lead</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/chetana-panda-0100a5192/"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100009432617352"><i
+                                    class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/pandachetana/?hl=en"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/leander.jpeg" alt="profile image" class="profile-img">
+                    <h1>Leonder Joseph</h1>
+                    <p class="Job-Title">Management Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://linkedin.com/in/leander-joseph-152149b7"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://m.facebook.com/leander.joseph.10?ref=bookmarks"><i
+                                    class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://instagram.com/lee_11_mac?igshid=kq8q1jve0ms4"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/manisha.jpeg" alt="profile image" class="profile-img">
+                    <h1>Manisha Shaju</h1>
+                    <p class="Job-Title">Management Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/manisha-m-shaju-b743981b4"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://instagram.com/_.manishaaa.__?igshid=sc7i7jfosdjg"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/dhanush.jpeg" alt="profile image" class="profile-img">
+                    <h1>Dhanush</h1>
+                    <p class="Job-Title">Machine Learning Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/ns-dhanush-204977188"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/dhanush_nsd/"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/shibangi.jpeg" alt="profile image" class="profile-img">
+                    <h1>Shibangi Lodh</h1>
+                    <p class="Job-Title">Women Tech Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/shibangi-lodh-4a07121b6"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/_happyvibe_/?hl=en"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/sushma.jpeg" alt="profile image" class="profile-img">
+                    <h1>Sushma N</h1>
+                    <p class="Job-Title">Sponsorship and Logistics</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/sushma-n-3227791b4"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/sushma.nagaraj.104"><i class="fa fa-facebook-official"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/sushma.nagaraj_"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/.jpeg" alt="profile image" class="profile-img">
+                    <h1>Dawood</h1>
+                    <p class="Job-Title">Content writing</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/chandana.jpeg" alt="profile image" class="profile-img">
+                    <h1>Chandana</h1>
+                    <p class="Job-Title">Content Writing</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="https://www.linkedin.com/in/chandana-t-700648159"><i class="fa fa-linkedin-square"
+                                    aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                    <img src="static/images/team_images/navya.jpeg" alt="profile image" class="profile-img">
+                    <h1>Navya</h1>
+                    <p class="Job-Title">Media Team</p>
+                    <a href="#" class="btn">Contact</a>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <h1>SUPPORT TEAM</h1>
+
+            <div class="container">
+                <div class="card-wrapper">
+
+
+                    <div class="card">
+                        <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngkit.com%2Fview%2Fu2r5a9w7a9y3e6r5_download-female-profile-icon-png-clipart-computer-icons%2F&psig=AOvVaw0rFskEDjfHoIvXB6djZxC4&ust=1600715921393000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCmltS5-OsCFQAAAAAdAAAAABAD"
+                            alt="profile image" class="profile-img">
+                        <h1>Ramya</h1>
+                        <p class="Job-Title">Web Development Team</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="https://www.linkedin.com/in/ramya-l-reddy-7b40121a1(Ramya)"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="static/images/team_images/card.bg.jpg" alt="card background" class="card-img">
+                        <img src="static/images/team_images/.jpeg" alt="profile image" class="profile-img">
+                        <h1>Vishwas Upponi</h1>
+                        <p class="Job-Title">Designing Team</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="https://www.linkedin.com/in/ramya-l-reddy-7b40121a1(Ramya)"><i
+                                    class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+</body>
+
+</html>

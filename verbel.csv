@@ -1,0 +1,82 @@
+Sl-No,Question,A,B,C,D,Answer
+1,"If A + B means A is the mother of B; A - B means A is the brother B; A % B means A is the father of B and A x B means A is the sister of B, which of the following shows that P is the maternal uncle of Q?",Q - N + M x P,P + S x N - Q,P - M + N x Q,Q - S % P,P - M + N x Q
+2,"If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?",Brother,Sister,Nephew,Cannot be determined,Cannot be determined
+3,"If A $ B means A is the brother of B; B * C means B is the son of C; C @ D means C is the wife of D and A # D means A is the son of D, how C is related to A?",Maternal grandmother,Maternal aunt,Aunt,Mother,Mother
+4,"Pointing to a girl Sandeep said, ""She is the daughter of the only sister of my father."" How is sandeep related to the girl?",Uncle,Cousin,Father,Grandfather,Cousin
+5,Flow : River :: Stagnant : ?,Rain,Stream,Pool,Canal,Pool
+6,Ornithologist : Bird :: Archaeologist : ?,Islands,Mediators,Archaeology,Aquatic,Archaeology
+7,Peace : Chaos :: Creation : ?,Build,Construction,Destruction,Manufacture,Destruction
+8,"A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?",A,X,S,Z,X
+9,"A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting ?",Between B and D,Between B and C,Between E and D,Between C and E,Between B and C
+10,"120, 99, 80, 63, 48, ?",35,38,39,40,35
+11,"589654237, 89654237, 8965423, 965423, ?",58965,65423,89654,96542,96542
+12,"125,80,45,20,?",5,8,10,12,5
+13,"Here are some words translated from an artificial language. gorblflur means fan belt, pixngorbl means ceiling fan, arthtusl means tile roof, Which word could mean ""ceiling tile""?",gorbltusl,flurgorbl,arthflur,pixnarth,pixnarth
+14,"Here are some words translated from an artificial language. hapllesh means cloudburst, srenchoch means pinball, resbosrench means ninepin, Which word could mean ""cloud nine""?",leshsrench,ochhapl,haploch,haplresbo,haplresbo
+15,Which word does NOT belong with the others?,rye,sourdough,pumpernickel,loaf,rye
+16,Which word does NOT belong with the others?,dodge,flee,duck,avoid,flee
+17,"The total of the ages of Amar, Akbar and Anthony is 80 years. What was the total of their ages three years ago ?",71 years,72 years,74 years,77 years,71 years
+18,Two bus tickets from city A to B and three tickets from city A to C cost Rs. 77 but three tickets from city A to B and two tickets from city A to C cost Rs. 73. What are the fares for cities B and C from A ?,"Rs. 4, Rs. 23","Rs. 13, Rs. 17","Rs. 15, Rs. 14","Rs. 17, Rs. 13","Rs. 13, Rs. 17"
+19,An institute organised a fete and 1/5 of the girls and 1/8 of the boys participated in the same. What fraction of the total number of students took part in the fete ?,2/13,13/40,Data inadequate,None of these,Data inadequate
+20,"A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 each extra. The number of those who attended the picnic was",8,12,16,24,8
+21,A pineapple costs Rs. 7 each. A watermelon costs Rs. 5 each. X spends Rs. 38 on these fruits. The number of pineapples purchased is,2,3,4,Data inadequate,4
+22,What is the product of all the numbers in the dial of a telephone ?,"1,58,480","1,59,450","1,59,480",None of these,None of these
+23,"Five bells begin to toll together and toll respectively at intervals of 6, 5, 7, 10 and 12 seconds. How many times will they toll together in one hour excluding the one at the start ?",7 times,8 times,9 times,11 times,8 times
+24,"In a city, 40% of the adults are illiterate while 85% of the children are literate. If the ratio of the adults to that of the children is 2 : 3, then what percent of the population is literate ?",20%,25%,50%,75%,75%
+25,"In a family, each daughter has the same number of brothers as she has sisters and each son has twice as many sisters as he has brothers. How many sons are there in the family ?",2,3,4,5,3
+26,"A student got twice as many sums wrong as he got right. If he attempted 48 sums in all, how many did he solve correctly ?",12,16,18,24,16
+27,"In a group of cows and hens, the number of legs are 14 more than twice the number of heads. The number of cows is",5,7,10,12,7
+28,Antonym of QUIESCENT,ACTIVE,Dormant,Weak,Unconcerned,ACTIVE
+29,Antonym of RELINQUISH,Abdicate,Renounce,Possess,Deny,Possess
+30,Antonym of TANGIBLE,Ethereal,Concrete,Actual,Solid,Ethereal
+31,Antonym of FRUGAL,Copious,Extravagant,Generous,Ostentatious,Extravagant
+32,"Antonym of SUPPRESS   
+",Encourage,Allow,Praise,Permit,Encourage
+33,Find the correctly spelt word,Ommineous,Omineous,Ominous,Omenous,Ominous
+34,Find the correctly spelt word,Benefitted,Benifited,Benefited,Benefeted,Benefited
+35,Find the correctly spelt word,Chancelary,Chancellery,Chancelery,Chancellary,Chancellery
+36,Find the correctly spelt word,Survaillance,Surveillance,Survellance,Surveilance,Surveillance
+37,Find the correctly spelt word,Inoculation,Innoculation,Inocculation,Inocullation,Inoculation
+38,"Choose the one which can be substituted for the given sentence ""That which cannot be corrected""",Unintelligible,Indelible,Illegible,Incorrigible,Incorrigible
+39,"Choose the one which can be substituted for the given sentence ""The study of ancient societies""",Anthropology,Archaeology,History,Ethnology,Archaeology
+40,"Choose the one which can be substituted for the given sentence ""A person who insists on something""",Disciplinarian,Stickler,Instantaneous,Boaster,Stickler
+41,"Choose the one which can be substituted for the given sentence ""One who is not easily pleased by anything""",Maiden,Mediaeval,Precarious,Fastidious,Fastidious
+42,"Choose the one which can be substituted for the given sentence ""One who sacrifices his life for a cause""",Patriot,Martyr,Revolutionary,Soldier,Martyr
+43,Synonym of VENT,Opening,Stodge,End,Past tense of go,Opening
+44,"Synonym of INSOLVENT     
+
+",Poor,Bankrupt,Penniless,Broke,Bankrupt
+45,Synonym of REPEAL,Sanction,Perpetuate,Pass,Cancel,Cancel
+46,Synonym of LYNCH,Hang,Madden,Kill,Shoot,Kill
+47,Synonym of SCINTILLATING,Smouldering,Glittering,Touching,Warming,Glittering
+48,"FAG, GAF, HAI, IAH, ____",JAK,HAL,HAK,JAI,JAK
+49,"CMM, EOO, GQQ, _____, KUU",GRR,GSS,ISS,ITT,ISS
+50,"JAK, KBL, LCM, MDN, _____",OEP,NEO,MEN,PFQ,NEO
+51,"QPO, NML, KJI, _____, EDC",HGF,CAB,JKL,GHI,HGF
+52,"BCB, DED, FGF, HIH, ___",JKJ,HJH,IJI,JHJ,JKJ
+53,"Erin is twelve years old. For three years, she has been asking her parents for a dog. Her parents have told her that they believe a dog would not be happy in an apartment, but they have given her permission to have a bird. Erin has not yet decided what kind of bird she would like to have.",Erin's parents like birds better than they like dogs,Erin does not like birds,Erin and her parents live in an apartment,Erin and her parents would like to move,Erin and her parents live in an apartment
+54,"The Pacific yew is an evergreen tree that grows in the Pacific Northwest. The Pacific yew has a fleshy, poisonous fruit. Recently, taxol, a substance found in the bark of the Pacific yew, was discovered to be a promising new anticancer drug.",Taxol is poisonous when taken by healthy people.,Taxol has cured people from various diseases,People should not eat the fruit of the Pacific yew,The Pacific yew was considered worthless until taxol was discovered,People should not eat the fruit of the Pacific yew
+55,"When they heard news of the hurricane, Maya and Julian decided to change their vacation plans. Instead of traveling to the island beach resort, they booked a room at a fancy new spa in the mountains. Their plans were a bit more expensive, but they'd heard wonderful things about the spa and they were relieved to find availability on such short notice.",Maya and Julian take beach vacations every year.,The spa is overpriced.,It is usually necessary to book at least six months in advance at the spa.,Maya and Julian decided to change their vacation plans because of the hurricane.,Maya and Julian decided to change their vacation plans because of the hurricane.
+56,"Ten new television shows appeared during the month of September. Five of the shows were sitcoms, three were hour-long dramas, and two were news-magazine shows. By January, only seven of these new shows were still on the air. Five of the shows that remained were sitcoms.",Only one of the news-magazine shows remained on the air.,Only one of the hour-long dramas remained on the air.,At least one of the shows that was cancelled was an hour-long drama.,Television viewers prefer sitcoms over hour-long dramas,At least one of the shows that was cancelled was an hour-long drama.
+57,"On weekends, Mr. Sanchez spends many hours working in his vegetable and flower gardens. Mrs. Sanchez spends her free time reading and listening to classical music. Both Mr. Sanchez and Mrs. Sanchez like to cook.",Mr. Sanchez enjoys planting and growing vegetables.,Mr. Sanchez does not like classical music.,Mrs. Sanchez cooks the vegetables that Mr. Sanchez grows,Mrs. Sanchez enjoys reading nineteenth century novels.,Mr. Sanchez enjoys planting and growing vegetables.
+58,"Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",22,24,25,26,25
+59,"Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",52,56,96,128,56
+60,"Look at this series: 544, 509, 474, 439, ... What number should come next?",404,414,420,445,404
+61,"Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",3,3.3,3.5,3.6,3.6
+62,"Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",7,10,14,15,15
+63,Violating an Apartment Lease occurs when a tenant does something prohibited by the legally binding document that he or she has signed with a landlord. Which situation below is the best example of Violating an Apartment Lease?,"Tim has decided to move to another city, so he calls his landlord to tell him that he is not interested in renewing his lease when it expires next month.","Valerie recently lost her job and, for the last three months, has neglected to pay her landlord the monthly rent they agreed upon in writing when she moved into her apartment eight months ago.",Mark writes a letter to his landlord that lists numerous complaints about the apartment he has agreed to rent for two years.,Leslie thinks that her landlord is neglecting the building in which she rents an apartment. She calls her attorney to ask for advice.,"Valerie recently lost her job and, for the last three months, has neglected to pay her landlord the monthly rent they agreed upon in writing when she moved into her apartment eight months ago."
+64,People speculate when they consider a situation and assume something to be true based on inconclusive evidence. Which situation below is the best example of Speculation ?,"Francine decides that it would be appropriate to wear jeans to her new office on Friday after reading about ""Casual Fridays"" in her employee handbook.",Mary spends thirty minutes sitting in traffic and wishes that she took the train instead of driving.,"After consulting several guidebooks and her travel agent, Jennifer feels confident that the hotel she has chosen is first-rate.","When Emily opens the door in tears, Theo guesses that she's had a death in her family.","When Emily opens the door in tears, Theo guesses that she's had a death in her family."
+65,Posthumous Publication occurs when a book is published after the author's death. Which situation below is the best example of Posthumous Publication ?,Richard's illness took his life before he was able to enjoy the amazing early reviews of his novel.,Melissa's publisher cancels her book contract after she fails to deliver the manuscript on time,Clarence never thought he'd live to see the third book in his trilogy published.,Elizabeth is honored with a prestigious literary award for her writing career and her daughter accepts the award on behalf of her deceased mother.,Richard's illness took his life before he was able to enjoy the amazing early reviews of his novel.
+66,A Guarantee is a promise or assurance that attests to the quality of a product that is either (1) given in writing by the manufacturer or (2) given verbally by the person selling the product. Which situation below is the best example of a Guarantee?,Melissa purchases a DVD player with the highest consumer ratings in its category.,The salesperson advises Curt to be sure that he buys an air conditioner with a guarantee.,The local auto body shop specializes in refurbishing and selling used cars.,Lori buys a used digital camera from her coworker who says that she will refund Lori's money if the camera's performance is not of the highest quality.,Lori buys a used digital camera from her coworker who says that she will refund Lori's money if the camera's performance is not of the highest quality.
+67,A Tiebreaker is an additional contest or period of play designed to establish a winner among tied contestants. Which situation below is the best example of a Tiebreaker?,"At halftime, the score is tied at 28.",Mary and Megan have each scored three goals in the game.,The referee tosses a coin to decide which team will have possession of the ball first.,"The Sharks and the Bears each finished with 14 points, and they are now battling it out in a five-minute overtime.","The Sharks and the Bears each finished with 14 points, and they are now battling it out in a five-minute overtime."
+68,"When he P: did not know Q : he was nervous and R : heard the hue and cry at midnight S : what to do The Proper sequence should be:
+
+",RQPS,QSPR,SQPR,PQRS,RQPS
+69,Then P : it struck me Q : of course R : suitable it was S : how eminently  The Proper sequence should be:,SPQR,QSRP,PSRQ,QPSR,PSRQ
+70,"Since the beginning of history P : have managed to catch Q : the Eskimos and Red Indians  R : by a very difficulty method S : a few specimens of this aquatic animal The Proper sequence should be:
+",QRPS,SQPR,SQRP,SQRP,SQRP
+71,The miser gazed ...... at the pile of gold coins in front of him,avidly,admiringly,thoughtfully,earnestly,avidly
+72,The grapes are now ...... enough to be picked.,ready,mature,ripe,advanced,ripe
+73,"If you smuggle goods into the country, they may be ...... by the customs authority.",possessed,punished,confiscated,fined,confiscated
+74,I was astounded at his ...... lack of knowledge about the Continent of Africa.,abundant,colossal,huge,great,colossal
+75,He felt no ...... as he plunged the knife into her back,qualms,scruple,conscience,morals,qualms
