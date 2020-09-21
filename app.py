@@ -120,6 +120,16 @@ def test():
 def team():
     return render_template('team.html')
 
+#Result
+@app.route('/marks')
+@login_required
+def marks():
+    score=pd.read_csv('answer.csv')
+    score1=score.to_records(index=False)
+    result = list(score1)
+    # lists1 = list.sort_values("marks", ascending=True)
+    return render_template('result.html',results=result)
+
 #Score of the test
 @app.route('/answer',methods=['GET','POST'])
 @login_required
